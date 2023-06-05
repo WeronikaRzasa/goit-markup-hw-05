@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW04</title>
+    <title>HW05</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -49,8 +49,17 @@
     <section class="section" >
     <div class="container">
 <h1 class="main-heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
 <div class="service">
-<button type="button" class="service-button">Zamów usługe</button>
+<button data-modal-open type="button" class="service-button">Zamów usługe</button>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+    <button data-modal-close class="button-closing"><svg class="button-closing-icon" width="11px" height="11px">
+        <use href="./images/icons.svg#icon-Vector"></use>
+    </svg>
+    </button>
+    </div>
+</div>
 </div>
 </div>
 </section>
