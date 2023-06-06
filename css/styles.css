@@ -386,6 +386,7 @@ header {
 .social-links-icon {
     margin: 12px;
     fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-icon-space:hover,
 .social-links-icon-space:focus {
@@ -461,7 +462,8 @@ header {
     line-height: 1.62;
     border-radius: 4px;
     padding: 6px 22px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .buttons .button:hover,
 .buttons .button:focus {
@@ -532,10 +534,10 @@ header {
     height: 100%;
     margin: 0;
 }
-.box:hover .overlay,
-.box:focus .overlay {
+.image-display:hover .overlay,
+.image-display:focus .overlay {
     transform: translateX(0);
-  }
+}
 
 /*stopka*/
 
